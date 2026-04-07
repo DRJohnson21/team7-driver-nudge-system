@@ -102,7 +102,7 @@ NYC TLC Parquet Files
         ↓
   [01] Spark Ingestion & Cleaning
         ↓
-  [02] Zone-Level Demand Aggregation (hourly buckets)
+  [02] Zone-Level Demand Aggregation (time-of-day buckets)
         ↓
   [03] Heuristic Ranking & Confidence Filtering
         ↓
