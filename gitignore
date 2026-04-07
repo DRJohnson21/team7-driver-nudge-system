@@ -1,0 +1,39 @@
+# Environment & credentials — NEVER commit these
+.env
+*.env
+secrets.py
+credentials.py
+
+# Large data files — store locally or in cloud storage, not GitHub
+data/*.parquet
+data/*.csv
+data/*.zip
+*.parquet
+*.csv
+
+# Keep the data folder itself but not its contents
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Databricks
+.databricks/
