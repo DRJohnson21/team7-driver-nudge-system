@@ -77,7 +77,7 @@ team7-driver-nudge-system/
 ### Steps
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/team7-driver-nudge-system.git
+git clone https://github.com/DRJohnson21/team7-driver-nudge-system.git
 cd team7-driver-nudge-system
 ```
 
