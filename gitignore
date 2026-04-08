@@ -13,6 +13,8 @@ data/*.zip
 
 # Keep the data folder itself but not its contents
 !data/.gitkeep
+!data/*_sample.parquet
+!data/taxi_zone_lookup.csv
 
 # Python
 __pycache__/
