@@ -18,9 +18,11 @@
 
 ## Project Overview
 
-Ride-hailing platforms frequently experience mismatches between driver availability and rider demand, leading to increased passenger wait times and inefficient driver utilization. While large platforms deploy complex automated dispatch systems, these are typically opaque — drivers receive recommendations but are never told why certain areas are prioritized, reducing trust and limiting their ability to act effectively.
+Ride-hailing platforms such as Uber and Lyft frequently face mismatches between driver supply and rider demand. These inefficiencies lead to longer wait times, increased driver idle time, and lost revenue.
+Current platform systems rely on automated dispatch and surge mechanisms that operate behind the scenes. While drivers receive recommendations, they are not provided with the underlying data or reasoning that explains why certain areas are prioritized. As a result, drivers have limited visibility into how these suggestions are generated, which can reduce trust and make it harder to act on them effectively.
 
-This project builds a batch-based, demand-aware driver decision support system that processes **9.4 million NYC TLC Yellow Taxi trip records** (January–March 2023) using Apache Spark on Databricks. The pipeline aggregates pickup activity by geographic zone and time window, computes normalized demand scores, and ranks the top high-opportunity zones per window. A Large Language Model (OpenAI API) then translates these ranked signals into concise, plain-English nudge messages that explain where demand is historically strong and why — keeping drivers fully in control.
+This project introduces a data-driven, explainable decision support system that surfaces high-demand locations and communicates them through concise, natural-language nudges. The goal is to provide clear, data-backed insights that enable drivers to make informed repositioning decisions independently.
+
 
 > **The core insight:** Uber tells drivers WHERE to go. We tell them WHY — and let them decide.
 
@@ -132,13 +134,13 @@ git clone https://github.com/DRJohnson21/team7-driver-nudge-system.git
 
 2. Download the NYC TLC Yellow Taxi data (January, February, and March 2023) from the link above and upload to your Databricks volume:
 ```
-/Volumes/msbabigdata/spark/trend_market_project/yellow_tripdata_2023-01.parquet
-/Volumes/msbabigdata/spark/trend_market_project/yellow_tripdata_2023-02.parquet
-/Volumes/msbabigdata/spark/trend_market_project/yellow_tripdata_2023-03.parquet
+/Volumes/msbabigdata/spark/trend_market_project/yellow_tripdata_2023-Jan.parquet
+/Volumes/msbabigdata/spark/trend_market_project/yellow_tripdata_2023-Feb.parquet
+/Volumes/msbabigdata/spark/trend_market_project/yellow_tripdata_2023-March.parquet
 /Volumes/msbabigdata/spark/trend_market_project/Taxi_zone_lookup.csv
 ```
 
-3. Store your OpenAI API key in Databricks Secrets. Never hardcode credentials in the notebook:
+3. Store your OpenAI API key in Databricks Secrets:
 ```bash
 # Run in a %sh cell or your local terminal with the Databricks CLI installed
 databricks secrets create-scope team7
