@@ -62,7 +62,7 @@ Recommendation quality is evaluated using a temporal holdout approach: January�
 
 ```
 team7-driver-nudge-system/
-├── notebooks/
+├── pipeline/
 │   └── driving_demand_pipeline.ipynb    # Full end-to-end pipeline (Parts 1–11)
 ├── data/
 │   ├── taxi_zone_lookup.csv             # NYC taxi zone lookup (265 zones)
