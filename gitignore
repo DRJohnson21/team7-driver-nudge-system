@@ -7,13 +7,9 @@ credentials.py
 # Large data files — store locally or in cloud storage, not GitHub
 data/*.parquet
 data/*.csv
-data/*.zip
-*.parquet
-*.csv
 
-# Keep the data folder itself but not its contents
-!data/.gitkeep
-!data/*_sample.parquet
+# Allow specific small data files needed to run the project
+!data/yellow_tripdata_2023_sample.parquet
 !data/Taxi_zone_lookup.csv
 
 # Python
