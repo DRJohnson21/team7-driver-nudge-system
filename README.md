@@ -147,7 +147,7 @@ databricks secrets create-scope team7
 databricks secrets put-secret team7 openai_api_key --string-value "your-key-here"
 ```
 
-4. Import `notebooks/driving_demand_pipeline.ipynb` into your Databricks workspace via **Workspace → Import**
+4. Import `pipeline/driving_demand_pipeline.ipynb` into your Databricks workspace via **Workspace → Import**
 
 5. Run all cells from top to bottom (Parts 1–11 in order)
 
