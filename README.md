@@ -48,10 +48,10 @@ Recommendation quality is evaluated using a temporal holdout approach: Januaryâ€
 |-------|------|
 | Compute & Orchestration | Databricks (shared workspace via Carlson School IT) |
 | Batch ETL & Aggregation | Apache Spark / PySpark |
-| Storage | Delta Lake (Unity Catalog) |
+| Storage | Delta Lake |
 | Heuristic Ranking | PySpark window functions |
 | LLM Nudge Generation | OpenAI API (gpt-4o-mini) |
-| Visualization | Matplotlib, Seaborn |
+| Visualization | Matplotlib |
 
 *Shared Databricks workspace provided by Carlson School IT.*
 
