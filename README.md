@@ -67,7 +67,7 @@ team7-driver-nudge-system/
 │   ├── taxi_zone_lookup.csv             # NYC taxi zone lookup (265 zones)
 │   └── yellow_tripdata_2023_sample.parquet  # Stratified sample for testing
 ├── docs/
-│   ├── team7_handout.pdf                # Two-page project handout
+│   ├── team7_presentation.pdf           # Project 5-minute presentation
 │   └── team7_flier.pdf                  # Project flier
 ├── .gitignore
 └── README.md
