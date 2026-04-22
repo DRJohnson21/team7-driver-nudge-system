@@ -1,5 +1,4 @@
-# Driving Demand: Explainable AI-Driven Driver Nudge System
-### Demand-Aware Decision Support for Ride-Hailing Platforms
+# Driving Demand: AI-Backed Driver Nudge System for Demand-Aware Positioning Decisions
 
 **Team 7** | Master of Science in Business Analytics | Carlson School of Management, University of Minnesota
 
