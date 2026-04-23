@@ -1,4 +1,4 @@
-# Zone Sense: An AI-Backed Driver Nudge System for Demand-Aware Repositioning Decisions
+# Zone Sense: An AI-Backed Driver Nudge System for Demand-Aware Repositioning
 
 **Team 7** | Master of Science in Business Analytics | Carlson School of Management, University of Minnesota
 
