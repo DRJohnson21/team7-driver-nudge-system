@@ -181,8 +181,8 @@ A recommended zone is confirmed as a true hit if it ranks in the top 20th percen
 
 ## Sample Generated Nudge
 
-**Weekday Night — Top zone: Upper East Side North (~13.5x)**
-> *"Weekday night: Upper East Side North is about 13.5x busier than average with 52,602 pickups recorded across the training window. Penn Station/Madison Sq West follows at roughly 13.3x with 52,200 pickups. Focus on Upper East Side North for potential opportunities."*
+**Weekend Evening Rush — Top zone: JFK Airport (~14.9x)**
+> *"During the weekend evening rush, JFK Airport is about 14.9x busier than average with roughly 1,200 pickups per evening. East Village follows at about 12.7x with around 1,000 pickups per evening. Focus on JFK Airport for potential opportunities."*
 
 ---
 
