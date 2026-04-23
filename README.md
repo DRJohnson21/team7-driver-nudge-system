@@ -23,7 +23,7 @@ Current platform systems rely on automated dispatch and surge mechanisms that op
 This project introduces a data-driven, explainable decision support system that surfaces high-demand locations and communicates them through concise, natural-language nudges. The goal is to provide clear, data-backed insights that enable drivers to make informed repositioning decisions independently.
 
 
-> **The core insight:** Uber tells drivers WHERE to go. We tell them WHY — and let them decide.
+> **The core insight:** Ride-hail apps tells drivers WHERE to go. We tell them WHY — and let them decide.
 
 Recommendation quality is evaluated using a temporal holdout approach: January–February rankings are validated against held-out March data, achieving a **100% hit rate across all 8 time windows** — 5x better than the 20% random baseline.
 
