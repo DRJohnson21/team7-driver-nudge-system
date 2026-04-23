@@ -62,7 +62,7 @@ Recommendation quality is evaluated using a temporal holdout approach: January�
 ```
 team7-driver-nudge-system/
 ├── pipeline/
-│   └── driving_demand_pipeline.ipynb    # Full end-to-end pipeline (Parts 1–11)
+│   └── demand_sense_pipeline.ipynb    # Full end-to-end pipeline (Parts 1–11)
 ├── data/
 │   ├── taxi_zone_lookup.csv             # NYC taxi zone lookup (265 zones)
 │   └── yellow_tripdata_2023_sample.parquet  # Stratified sample for testing
@@ -79,7 +79,7 @@ team7-driver-nudge-system/
 
 ## Pipeline Architecture
 
-The entire pipeline runs as a single notebook (`driving_demand_pipeline.ipynb`) with 11 sequential parts:
+The entire pipeline runs as a single notebook (`demand_sense_pipeline.ipynb`) with 11 sequential parts:
 
 ```
 NYC TLC Parquet Files (Jan, Feb, Mar 2023)
@@ -146,7 +146,7 @@ databricks secrets create-scope team7
 databricks secrets put-secret team7 openai_api_key --string-value "your-key-here"
 ```
 
-4. Import `pipeline/driving_demand_pipeline.ipynb` into your Databricks workspace via **Workspace → Import**
+4. Import `pipeline/demand_sense_pipeline.ipynb` into your Databricks workspace via **Workspace → Import**
 
 5. Run all cells from top to bottom (Parts 1–11 in order)
 
